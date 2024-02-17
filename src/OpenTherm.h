@@ -141,7 +141,7 @@ public:
 	bool isValidResponse(unsigned long response);
 
 	//requests
-	unsigned long buildSetBoilerStatusRequest(bool enableCentralHeating, bool enableHotWater = false, bool enableCooling = false, bool enableOutsideTemperatureCompensation = false, bool enableCentralHeating2 = false);
+	unsigned long buildSetBoilerStatusRequest(bool enableCentralHeating, bool enableHotWater = false, bool enableCooling = false, bool enableOutsideTemperatureCompensation = false, bool enableCentralHeating2 = false, bool enableSummerMode = false, bool lockHotWater = false);
 	unsigned long buildSetBoilerTemperatureRequest(float temperature);
 	unsigned long buildGetBoilerTemperatureRequest();
 
