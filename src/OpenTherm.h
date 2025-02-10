@@ -86,9 +86,10 @@ enum class OpenThermMessageID : byte
     TrOverride2                                 = 39, // f8.8    Remote Override Room Setpoint 2
     TdhwSetUBTdhwSetLB                          = 48, // s8/s8     DHW Setpoint upper & lower bounds for adjustment(°C)
     MaxTSetUBMaxTSetLB                          = 49, // s8/s8     Max CH water Setpoint upper & lower bounds for adjustment(°C)
-    OTCratio                                     = 50, // s8/s8     OTC heat curve ratio upper & lower bounds for adjustment
+    OTCratio                                    = 50, // s8/s8     OTC heat curve ratio upper & lower bounds for adjustment
     TdhwSet                                     = 56, // f8.8    DHW Setpoint(°C) (Remote parameter 1)
     MaxTSet                                     = 57, // f8.8    Max CH water Setpoint(°C) (Remote parameters 2)
+    Hcratio                                     = 58, // f8.8    OTC heat curve ratio (°C)  (Remote parameter 3)
     StatusVentilationHeatRecovery               = 70, // flag8/flag8   Master and Slave Status flags ventilation / heat - recovery
     Vset                                        = 71, // -/u8  Relative ventilation position (0-100%). 0% is the minimum set ventilation and 100% is the maximum set ventilation. 
     ASFflagsOEMfaultCodeVentilationHeatRecovery = 72, // flag8/u8  Application-specific fault flags and OEM fault code ventilation / heat-recovery 
